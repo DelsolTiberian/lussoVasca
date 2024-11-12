@@ -1,0 +1,80 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    margin: 0%;
+}
+
+/* Nav menu */
+nav {
+    height: 8vh;
+    padding-left: 2vw;
+    width: 100%;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.nav-link-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 45%;
+}
+
+.nav-link{
+    font-family: 'inter';
+    font-weight: 100;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+/* Welcome Page */
+
+.welcomePage {
+    background-image: url(../asset/picture/welcome.png);
+    height: 100vh;
+    background-size: 100% auto;
+    background-position: top center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.big_logo {
+    height: 50vh;
+    padding-bottom: 200px;
+}
+
+.btn-txt{
+    color: white;
+    text-decoration: none;
+    font-family: inter;
+    font-size: x-large;
+}
+.btn-1 {
+    font-weight: 100;
+    background-color: #757575;
+    border-radius: 20px;
+    padding: 3vh;
+    padding-left: 7vh;
+    padding-right: 7vh;
+}
+
+.btn-1:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+/* Lusso Vasca Presentation */
+
