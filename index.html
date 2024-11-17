@@ -6,37 +6,81 @@
         <title>Lusso Vasca</title>
         <link rel="shortcut icon" href="asset/picture/little_logo.png">
         <link rel="stylesheet" href="style/style.css">
-        <script src="chemin/vers/votre-fichier.js" defer></script>
+        <script src="./style/js/main.js" defer></script>
+        <!-- Assets Preload -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Italianno&display=swap" rel="stylesheet">
+        <link rel="preload" href="./asset/picture/welcome.png" as="image">
+        <link rel="preload" href="./asset/picture/logo_lussoVasca.png" as="image">
+        <link rel="preload" href="./asset/picture/little_logo.png" as="image">
     </head>
-    <body id="top">
-        <nav>
-            <a href="#top" class="nav-link">
-                <img src="asset/picture/little_logo.png" alt="Lusso Vasca" height="70vh">
-            </a>
-            <div class="nav-link-container">
-                    <a href="#presentation" class="nav-link">
-                        La Maison Lusso Vasca
-                    </a>
-                    <a href="#products" class="nav-link">
-                        Nos Produits
-                    </a>
-                    <a href="#cart" class="nav-link">
-                        Panier
-                    </a>
-                    <a href="#contact" class="nav-link">
-                        Contact
-                    </a>
+    <body id="top" class="no-scroll">
+        <!-- Loader -->
+        <div id="loader-back">
+            <div id="loader">
+                <div id="loader-mid">0%</div>
             </div>
-        </nav>
-        <section class="welcomePage">
-            <img src="asset/picture/logo_lussoVasca.png" class="big_logo">
-            <div class="btn-1">
-                <a href="#products" class="btn-txt">Nos Produits</a>
+        </div>
+        <!-- Page  Content -->
+        <div id="content">
+            <!-- Alternative nav menu for smartphone-->
+            <div class="nav-alt">
+                <div class="white-bar"></div>
+                <div class="white-bar"></div>
+                <div class="white-bar"></div>
             </div>
-        </section>
-        <section>
-            
-        </section>
 
+            <nav>
+                <a href="#top" class="nav-link">
+                    <img src="asset/picture/little_logo.png" alt="Lusso Vasca" class="logo">
+                </a>
+                <div class="nav-link-container">
+                        <a href="#presentation" class="nav-link">
+                            La Maison Lusso Vasca
+                        </a>
+                        <a href="#products" class="nav-link">
+                            Nos Produits
+                        </a>
+                        <a href="#shop" class="nav-link">
+                            Nos Magasins
+                        </a>
+                        <a href="" class="nav-link">
+                            Panier
+                        </a>
+                        <a href="#contact" class="nav-link">
+                            Contact
+                        </a>
+                </div>
+            </nav>
+            <section class="welcome-page">
+                <img src="asset/picture/logo_lussoVasca.png" class="big_logo">
+                <a href="#products" class="btn">Nos Produits</a>
+            </section>
+            <section class="presentation-page" id="presentation">
+                <div class="center">
+                    <h2 class="title"> La Maison Lusso Vasca</h2>
+                    <div class="black-line"></div>
+                </div>
+                <article class="presentation-art">
+                    <img src="asset/picture/presentation.png" class="article-img">
+                    <p>
+                        &emsp;Fondée en 1982, nous produisons des baignoires depuis plus de 40 ans avec la même passion et un savoir faire alliant le traditionnel et la technologie. Nous aspirons à redéfinir la baignoire contemporaine en modifiant son usage, en effet, dès notre création nous avons voulu innover dans une industrie  restée trop longtemps inchangée. <br>
+                        &emsp;Nous cherchons toujours à améliorer l’expérience qu’offre nos produits, surtout ceux impliquant de nouvelles technologie, qui peuvent révolutionner notre industrie. <br>
+                        &emsp;En effet, une baignoire c’est un objet permettant de se baigner paisiblement mais elle est aussi un objet dont l’esthétique n’est pas à négliger, elle sera la pièce centrale de votre salle de bain. 
+                    </p>
+                </article>
+                
+            </section>
+            <section class="products-page" id="products">
+                <div class="center">
+                    <h2 class="title"> Nos Produits</h2>
+                    <div class="black-line"></div>
+                </div>
+                <div>
+                    
+                </div>
+            </section>
+        </div>
     </body>
 </html>
